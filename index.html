@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feuerwehr Neusternberg</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Feuerwehr Neusternberg</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Startseite</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#services">Dienstleistungen</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Willkommen bei der Feuerwehr Neusternberg</h2>
+            <p>Wir sind rund um die Uhr für Ihre Sicherheit da.</p>
+            <a href="#contact" class="btn">Kontaktieren Sie uns</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Über uns</h2>
+            <p>Die Feuerwehr Neusternberg besteht aus einem engagierten Team von Freiwilligen und Berufsfeuerwehrleuten, die sich der Sicherheit und dem Schutz unserer Gemeinde verschrieben haben.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Unsere Dienstleistungen</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Brandbekämpfung</h3>
+                    <p>Wir löschen Brände und schützen Leben und Eigentum.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Technische Hilfeleistung</h3>
+                    <p>Wir helfen bei Unfällen und technischen Notfällen.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Katastrophenschutz</h3>
+                    <p>Wir sind vorbereitet für den Ernstfall.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Senden</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Feuerwehr Neusternberg. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
